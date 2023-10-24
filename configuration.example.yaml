@@ -1,0 +1,12 @@
+vault: 
+  type: keyvault
+  url: https://somekeyvaultrp.vault.azure.net/
+  credentials:
+    tenant: 924379d8-98a5-4440-9b12-322c2b7b4bc0
+    principal: 3253fa5e-270e-4e46-a997-aeb22c6b520c
+    secret: WeI8Q~U62XeF2UzJqr2_GmmDOxl7CkMOSxCe3b66
+secrets:
+  - key: foo
+    target: FOO
+  - key: bar
+    target: BAR
